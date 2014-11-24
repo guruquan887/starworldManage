@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="BaseDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145819062500" remote="130610145810000000" Dst="0" />
+<file name="DrawAmountDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145818906250" remote="130610145810000000" Dst="0" />
+<file name="DrawAmountDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145818906250" remote="130610145810000000" Dst="0" />
+<file name="EncryptionMD5.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145818750000" remote="130610145810000000" Dst="0" />
+<file name="GameAgentListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130611167470156250" remote="130611167470000000" Dst="0" />
+<file name="GameBankRecordDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610299261562500" remote="130610299260000000" Dst="0" />
+<file name="GameGoldListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130611189249531250" remote="130611189240000000" Dst="0" />
+<file name="GameJQUserAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145817968750" remote="130610145810000000" Dst="0" />
+<file name="GameMasterRightDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145817812500" remote="130610145810000000" Dst="0" />
+<file name="GameRoomInfo.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145817812500" remote="130610145810000000" Dst="0" />
+<file name="GameScoreInfoDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130611188878593750" remote="130611188870000000" Dst="0" />
+<file name="GameScoreInfoDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145817656250" remote="130610145810000000" Dst="0" />
+<file name="GameSpecialListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145817656250" remote="130610145810000000" Dst="0" />
+<file name="GameUserConfineListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145817500000" remote="130610145810000000" Dst="0" />
+<file name="GameUserDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130611191067343750" remote="130611191060000000" Dst="0" />
+<file name="GameUserDrawAmountAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145816406250" remote="130610145810000000" Dst="0" />
+<file name="GameUserDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145816718750" remote="130610145810000000" Dst="0" />
+<file name="GameUserListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145816406250" remote="130610145810000000" Dst="0" />
+<file name="GameUserMasterListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815937500" remote="130610145810000000" Dst="0" />
+<file name="GameUserRaceListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815937500" remote="130610145810000000" Dst="0" />
+<file name="GameUserXZListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815781250" remote="130610145810000000" Dst="0" />
+<file name="GameUseryeepayAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815625000" remote="130610145810000000" Dst="0" />
+<file name="GameXZUserDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815625000" remote="130610145810000000" Dst="0" />
+<file name="GameXZUserDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815468750" remote="130610145810000000" Dst="0" />
+<file name="GameYeepayDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815312500" remote="130610145810000000" Dst="0" />
+<file name="GameYeepayDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815312500" remote="130610145810000000" Dst="0" />
+<file name="GoldXhDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815312500" remote="130610145810000000" Dst="0" />
+<file name="RechargeRecordDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815156250" remote="130610145810000000" Dst="0" />
+<file name="RuleDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815156250" remote="130610145810000000" Dst="0" />
+<file name="Test.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145815156250" remote="130610145810000000" Dst="0" />
+</dwsync>

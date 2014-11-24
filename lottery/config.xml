@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<code>			
+	<ip>222.231.55.3</ip>
+	<port>10010</port>
+	<zone>keno8</zone>
+	<debug>true</debug>
+	<blueBoxIpAddress>222.231.55.3</blueBoxIpAddress>
+	<blueBoxPort>10010</blueBoxPort>
+	<smartConnect>true</smartConnect>
+	<httpPort>8080</httpPort>
+	<httpPollSpeed>750</httpPollSpeed>
+	<rawProtocolSeparator>%</rawProtocolSeparator>
+</code>

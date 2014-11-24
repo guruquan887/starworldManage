@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="fckcontextmenu.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876877968750" remote="130607876870000000" Dst="0" />
+<file name="fckdataprocessor.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880468750" remote="130607876880000000" Dst="0" />
+<file name="fckdocumentfragment_gecko.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880625000" remote="130607876880000000" Dst="0" />
+<file name="fckdocumentfragment_ie.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880937500" remote="130607876880000000" Dst="0" />
+<file name="fckdomrange.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878593750" remote="130607876870000000" Dst="0" />
+<file name="fckdomrangeiterator.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876877968750" remote="130607876870000000" Dst="0" />
+<file name="fckdomrange_gecko.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880156250" remote="130607876880000000" Dst="0" />
+<file name="fckdomrange_ie.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880468750" remote="130607876880000000" Dst="0" />
+<file name="fckeditingarea.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880625000" remote="130607876880000000" Dst="0" />
+<file name="fckelementpath.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880312500" remote="130607876880000000" Dst="0" />
+<file name="fckenterkey.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878437500" remote="130607876870000000" Dst="0" />
+<file name="fckevents.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876877968750" remote="130607876870000000" Dst="0" />
+<file name="fckhtmliterator.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880781250" remote="130607876880000000" Dst="0" />
+<file name="fckicon.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878437500" remote="130607876870000000" Dst="0" />
+<file name="fckiecleanup.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880156250" remote="130607876880000000" Dst="0" />
+<file name="fckimagepreloader.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878125000" remote="130607876870000000" Dst="0" />
+<file name="fckkeystrokehandler.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880781250" remote="130607876880000000" Dst="0" />
+<file name="fckmenublock.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880937500" remote="130607876880000000" Dst="0" />
+<file name="fckmenublockpanel.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876877812500" remote="130607876870000000" Dst="0" />
+<file name="fckmenuitem.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878281250" remote="130607876870000000" Dst="0" />
+<file name="fckpanel.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878750000" remote="130607876870000000" Dst="0" />
+<file name="fckplugin.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876877656250" remote="130607876870000000" Dst="0" />
+<file name="fckspecialcombo.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878750000" remote="130607876870000000" Dst="0" />
+<file name="fckstyle.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878750000" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbar.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876879218750" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarbreak_gecko.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878125000" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarbreak_ie.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876877656250" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarbutton.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878593750" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarbuttonui.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878593750" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarfontformatcombo.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878281250" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarfontscombo.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878437500" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarfontsizecombo.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876877812500" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarpanelbutton.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876878125000" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarspecialcombo.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876877656250" remote="130607876870000000" Dst="0" />
+<file name="fcktoolbarstylecombo.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876877812500" remote="130607876870000000" Dst="0" />
+<file name="fckw3crange.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880625000" remote="130607876880000000" Dst="0" />
+<file name="fckxml.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876879218750" remote="130607876870000000" Dst="0" />
+<file name="fckxml_gecko.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880468750" remote="130607876880000000" Dst="0" />
+<file name="fckxml_ie.js" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876880781250" remote="130607876880000000" Dst="0" />
+</dwsync>

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<%
+String msg="";
+if(request.getAttribute("msg")!=null){
+	msg=(String)request.getAttribute("msg");
+}
+%>
+<TITLE>后台管理系统</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<STYLE type=text/css>
+BODY {COLOR: white; font-size:12px;}
+</STYLE>
+<script language="javascript" src="<%=request.getContextPath()%>/js/userweb.js"></script>
+<script language="javascript">
+var msg="<%=msg %>";
+if(msg!='')alert(msg);
+</script>
+<META content="MSHTML 6.00.2900.6036" name=GENERATOR>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</HEAD>
+<BODY style="BACKGROUND: #0381ba" >
+<FORM name=theForm onSubmit="return validateLogin()" action="login.do" method=post>
+<TABLE style="MARGIN-TOP: 100px" cellSpacing=0 cellPadding=0 align=center>
+  <TBODY>
+  <TR>
+    <TD><IMG height=256 alt="xc" src="images/login.png" width=175 
+      border=0></TD>
+    <TD style="PADDING-LEFT: 10px">
+      <TABLE align="left">
+        <TBODY>
+        	<TR>
+          <TD width="72" height="30">管理员姓名：</TD>
+          <TD width="176"><INPUT name="username" id="username" size="18" class="input_width2"></TD></TR>
+        	<TR>
+          <TD height="30">管理员密码：</TD>
+          <TD><INPUT name="password" type="password" id="password" size="18" class="input_width2"></TD></TR>
+          <tr><TD>&nbsp;</TD>
+          <TD><INPUT name="提交" type="submit" class="input" value="确定登录"></TD></TR>
+        </TABLE></TD></TR></TBODY></TABLE>
+
+</FORM>
+
+</BODY></HTML>

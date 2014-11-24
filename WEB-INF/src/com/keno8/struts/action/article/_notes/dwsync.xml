@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ClassDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001718750" remote="130607877000000000" Dst="0" />
+<file name="ClassDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001250000" remote="130607877000000000" Dst="0" />
+<file name="NewsAddAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001562500" remote="130607877000000000" Dst="0" />
+<file name="NewsChangeStateAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001406250" remote="130607877000000000" Dst="0" />
+<file name="NewsDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877000781250" remote="130607877000000000" Dst="0" />
+<file name="NewsDeleteAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001875000" remote="130607877000000000" Dst="0" />
+<file name="NewsDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001406250" remote="130607877000000000" Dst="0" />
+<file name="NewsListAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001093750" remote="130607877000000000" Dst="0" />
+<file name="NewsPreAddAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001718750" remote="130607877000000000" Dst="0" />
+<file name="NewsPreUpdateAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001562500" remote="130607877000000000" Dst="0" />
+<file name="NewsTypeDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877000781250" remote="130607877000000000" Dst="0" />
+<file name="NewsTypeDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001562500" remote="130607877000000000" Dst="0" />
+<file name="NewsUpdateAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001250000" remote="130607877000000000" Dst="0" />
+<file name="QuestionTypeAddAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001250000" remote="130607877000000000" Dst="0" />
+<file name="QuestionTypeDeleteAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001718750" remote="130607877000000000" Dst="0" />
+<file name="QuestionTypeListAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877000937500" remote="130607877000000000" Dst="0" />
+<file name="QuestionTypePreUpdateAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001406250" remote="130607877000000000" Dst="0" />
+<file name="QuestionTypeUpdateAction.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877001093750" remote="130607877000000000" Dst="0" />
+</dwsync>

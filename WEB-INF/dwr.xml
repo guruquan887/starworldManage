@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://getahead.org/dwr/dwr20.dtd">
+
+<dwr>
+  <allow>
+  
+    <create creator="new" javascript="AgentAuthorityDwr">
+      <param name="class" value="com.doowal.hk798.dwr.AgentAuthorityDwr"/>
+    </create> 
+    
+    <create creator="new" javascript="AuthorityDwr">
+      <param name="class" value="com.doowal.hk798.dwr.AuthorityDwr"/>
+    </create> 
+
+    <create creator="new" javascript="RoleAuthorityDwr">
+      <param name="class" value="com.doowal.hk798.dwr.RoleAuthorityDwr"/>
+    </create> 
+    
+    <create creator="new" javascript="PlayDwr" >
+		<param name="class" value="com.suncity.dwr.PlayDwr" />
+		<include method="getPlayNumber"/>
+		<include method="updateSessionTime"/>
+	</create>
+	<convert match="com.suncity.dwr.PlayDTO" converter="bean"/>
+  </allow>
+</dwr>
+
+

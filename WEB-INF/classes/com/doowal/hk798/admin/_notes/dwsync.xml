@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AdminListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145823125000" remote="130610145820000000" Dst="0" />
+<file name="DataCountAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130611199797812500" remote="130611199790000000" Dst="0" />
+<file name="DataCountDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130611218585781250" remote="130611218580000000" Dst="0" />
+<file name="DataCountDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822968750" remote="130610145820000000" Dst="0" />
+<file name="DataManageAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822812500" remote="130610145820000000" Dst="0" />
+<file name="DataManageDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822812500" remote="130610145820000000" Dst="0" />
+<file name="DownloadAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822656250" remote="130610145820000000" Dst="0" />
+<file name="FileDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822656250" remote="130610145820000000" Dst="0" />
+<file name="NetCSDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822656250" remote="130610145820000000" Dst="0" />
+<file name="NetCSDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822500000" remote="130610145820000000" Dst="0" />
+<file name="NetCSListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822500000" remote="130610145820000000" Dst="0" />
+<file name="OperateDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822343750" remote="130610145820000000" Dst="0" />
+<file name="OperateLogsDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822343750" remote="130610145820000000" Dst="0" />
+<file name="PageDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822343750" remote="130610145820000000" Dst="0" />
+<file name="RoleDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822343750" remote="130610145820000000" Dst="0" />
+<file name="RoleDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822187500" remote="130610145820000000" Dst="0" />
+<file name="SystemSetAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145822187500" remote="130610145820000000" Dst="0" />
+</dwsync>

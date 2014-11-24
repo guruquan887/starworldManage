@@ -1,0 +1,1067 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+    
+    <!-- ========== Data Source Configuration =============================== -->
+	<data-sources>
+		 
+		<data-source key="dbgame88" type="org.apache.commons.dbcp.BasicDataSource"> 
+		<set-property property="password" value="Pass4JSP@@" /> 
+		<set-property property="minCount" value="3" /> 
+		<set-property property="maxCount" value="100" /> 
+		<set-property property="username" value="root4jsp" /> 
+		<set-property property="driverClassName" value="org.gjt.mm.mysql.Driver" /> 
+		<set-property property="description" value="for struts attack aolution" /> 
+		<set-property property="url" value="jdbc:mysql://112.213.109.220:3306/dbgame88?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=gbk" /> 
+		<set-property property="autoCommit" value="true" /> 
+		</data-source> 
+		
+		<data-source key="Keno8" type="org.apache.commons.dbcp.BasicDataSource">
+          <set-property property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+          <set-property property="url" value="jdbc:jtds:sqlserver://210.56.63.135:1433;User=game;Password=57.com@@;DatabaseName=kaileba" />
+          <set-property property="username" value="game"/>
+          <set-property property="password" value="57.com@@"/>
+          <set-property property="autoCommit" value="true"/>
+          <set-property property="pingQuery" value="SELECT COUNT(*) FROM RegAccountsInfo"/>
+          <set-property property="maxCount" value="500" />
+          <set-property property="minCount" value="3" />
+          <set-property property="maxActive" value="50" />
+         </data-source> 
+         
+		<data-source key="QPPlatformManagerDB" type="org.apache.commons.dbcp.BasicDataSource" >
+         <set-property property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+         <set-property property="url" value="jdbc:jtds:sqlserver://210.56.63.135:1433;User=game;Password=57.com@@;DatabaseName=QPPlatformManagerDB"/>
+         <set-property property="username" value="game"/>
+         <set-property property="password" value="57.com@@"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+              
+         <data-source key="QPAccountsDB" type="org.apache.commons.dbcp.BasicDataSource" >
+       	 <set-property property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+       	 <set-property property="url" value="jdbc:jtds:sqlserver://210.56.63.135:1433;User=game;Password=57.com@@;DatabaseName=QPAccountsDB"/>
+       	 <set-property property="username" value="game"/>
+         <set-property property="password" value="57.com@@"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+         
+         <data-source key="QPTreasureDB" type="org.apache.commons.dbcp.BasicDataSource" >
+       	 <set-property  property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+       	 <set-property property="url" value="jdbc:jtds:sqlserver://210.56.63.135:1433;User=game;Password=57.com@@;DatabaseName=QPTreasureDB"/>
+       	 <set-property property="username" value="game"/>
+         <set-property property="password" value="57.com@@"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+         
+         <data-source key="QPPlatformDB" type="org.apache.commons.dbcp.BasicDataSource" >
+       	 <set-property  property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+       	 <set-property property="url" value="jdbc:jtds:sqlserver://210.56.63.135:1433;User=game;Password=57.com@@;DatabaseName=QPPlatformDB"/>
+       	 <set-property property="username" value="game"/>
+         <set-property property="password" value="57.com@@"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+         
+         <data-source key="QPNativeWebDB" type="org.apache.commons.dbcp.BasicDataSource" >
+       	 <set-property  property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+       	 <set-property property="url" value="jdbc:jtds:sqlserver://210.56.63.135:1433;User=game;Password=57.com@@;DatabaseName=QPNativeWebDB"/>
+       	 <set-property property="username" value="game"/>
+         <set-property property="password" value="57.com@@"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+         
+         <data-source key="QPRecordDB" type="org.apache.commons.dbcp.BasicDataSource" >
+       	 <set-property  property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+       	 <set-property property="url" value="jdbc:jtds:sqlserver://210.56.63.135:1433;User=game;Password=57.com@@;DatabaseName=QPRecordDB"/>
+       	 <set-property property="username" value="game"/>
+         <set-property property="password" value="57.com@@"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+         
+         
+		<!--  <data-source key="QPPlatformManagerDB" type="org.apache.commons.dbcp.BasicDataSource" >
+         <set-property property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+         <set-property property="url" value="jdbc:jtds:sqlserver://115.236.31.182:1433;User=sdgame;Password=sdgame.db.123;DatabaseName=QPPlatformManagerDB"/>
+         <set-property property="username" value="sdgame"/>
+         <set-property property="password" value="sdgame.db.123"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+              
+         <data-source key="QPAccountsDB" type="org.apache.commons.dbcp.BasicDataSource" >
+       	 <set-property property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+       	 <set-property property="url" value="jdbc:jtds:sqlserver://115.236.31.182:1433;User=sdgame;Password=sdgame.db.123;DatabaseName=QPAccountsDB"/>
+       	 <set-property property="username" value="sdgame"/>
+         <set-property property="password" value="sdgame.db.123"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+         
+         <data-source key="QPTreasureDB" type="org.apache.commons.dbcp.BasicDataSource" >
+       	 <set-property  property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+       	 <set-property property="url" value="jdbc:jtds:sqlserver://115.236.31.182:1433;User=sdgame;Password=sdgame.db.123;DatabaseName=QPTreasureDB"/>
+       	 <set-property property="username" value="sdgame"/>
+         <set-property property="password" value="sdgame.db.123"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+         
+         <data-source key="QPPlatformDB" type="org.apache.commons.dbcp.BasicDataSource" >
+       	 <set-property  property="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+       	 <set-property property="url" value="jdbc:jtds:sqlserver://115.236.31.182:1433;User=sdgame;Password=sdgame.db.123;DatabaseName=QPPlatformDB"/>
+       	 <set-property property="username" value="sdgame"/>
+         <set-property property="password" value="sdgame.db.123"/>
+         <set-property property="maxActive" value="5"/>
+         <set-property property="PORTNUMBER" value="1433" />
+         <set-property property="validationQuery" value="select 1"/>
+         </data-source>
+          --> 
+	</data-sources>
+    
+    <!-- ========== Form Bean Definitions ================================== -->
+ 
+ 		<!-- ========== sendmessage ============================== -->  
+<form-beans>
+     <form-bean name="loginForm" type="com.nngame.struts.actionform.LoginActionForm"></form-bean>
+     <form-bean name="adminForm" type="com.nngame.struts.actionform.AdminActionForm"></form-bean>
+     <form-bean name="gameuserForm" type="com.nngame.struts.actionform.GameUserForm"></form-bean>
+     <form-bean name="gamegoldForm" type="com.nngame.struts.actionform.GameUserScoreForm"></form-bean>
+     <form-bean name="newsForm" type="com.nngame.struts.actionform.NewsForm"></form-bean>
+  </form-beans>
+    
+    <!-- ========== Global Exception Definitions ============================== -->
+    <global-exceptions >
+		<exception type="java.io.IOException"  key="action.errors.ioexception"   path="/error.jsp"/>
+	
+	</global-exceptions >
+    
+    <!-- ========== Global Forward Definitions =============================== -->
+    <global-forwards>
+		<forward name="index" path="/yanzheng.jsp" />
+    </global-forwards>
+    
+    <!-- ========== Action Mapping Definitions =============================== -->
+   <action-mappings>
+   
+   	<!-- 管理登陆的action -->
+    <action path="/login" 
+   			type="com.doowal.hk798.login.LoginAction" 
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/index.jsp"></forward>
+    <forward name="failure" path="/login.jsp"></forward>
+    </action>
+    
+   <!-- 系统管理员的action -->
+    <action path="/system/adminList" 
+   			type="com.doowal.hk798.admin.AdminListAction" 
+            scope="request"
+            validate="false"
+    >
+    <forward name="list" path="/system/systemadmin.jsp"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    <forward name="preUpdate" path="/system/systemadminEdit.jsp"></forward>
+    <forward name="update" path="/updatelogout.jsp"></forward>
+    <forward name="preAdd" path="/system/systemadminAdd.jsp"></forward>
+    <forward name="add" path="/system/adminList.do?action=list"></forward>
+    <forward name="del" path="/system/adminList.do?action=list"></forward>
+    <forward name="logList" path="/system/systemLog.jsp"></forward>
+    <forward name="delLog" path="/system/adminList.do?action=logList"></forward>
+    <forward name="preBundlingIP" path="/system/bundlingIP.jsp"></forward>
+    <forward name="bundlingIP" path="/system/adminList.do?action=preBundlingIP"></forward>
+    <forward name="qxbundlingIP" path="/system/adminList.do?action=preBundlingIP"></forward>
+    <forward name="preBundlingMachine" path="/system/bundlingMachine.jsp"></forward>
+    <forward name="bundlingMachine" path="/system/adminList.do?action=preBundlingMachine"></forward>
+    <forward name="qxbundlingMachine" path="/system/adminList.do?action=preBundlingMachine"></forward>
+    <forward name="bundlingManMachine" path="/system/adminList.do?action=list"></forward>
+    <forward name="qxbundlingManMachine" path="/system/adminList.do?action=list"></forward>
+    </action>
+    
+   <!-- 参数设置 -->
+   <action path="/system/NetCS" 
+   			type="com.doowal.hk798.admin.NetCSListAction" 
+            scope="request"
+            validate="false"
+    >
+    <forward name="preUpdate" path="/system/systemset.jsp"></forward>
+    <forward name="update" path="/system/NetCS.do?action=preUpdate"></forward>
+    </action>
+    
+      <!-- 系统设置 -->
+   <action path="/system/systemset" 
+   			type="com.doowal.hk798.admin.SystemSetAction" 
+            scope="request"
+            validate="false"
+    >
+    <forward name="systemSet" path="/system/wancs.jsp"></forward>
+    <forward name="update" path="/system/systemset.do?action=preUpdate"></forward>
+    </action>
+    
+    <!--====================================== 新增彩票配置文件 ================================================-->
+      <!-- 修改网站的参数 -->
+   <action path="/system/Pre3DUpdateNetCS"
+            type="com.keno8.struts.action.admin.PreUpdateNetCSAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/system/3dwancs.jsp"></forward>
+    <forward name="failure" path="/system/3dwancs.jsp"></forward>
+    </action>
+    
+    <action path="/system/Update3DNetCS"
+            type="com.keno8.struts.action.admin.UpdateNetCSAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/system/3dwancs.jsp"></forward>
+    <forward name="failure" path="/system/3dwancs.jsp"></forward>
+    </action>
+    
+    
+       <!-- 修改会员等级利率参数 -->
+   <action path="/system/PreUpdateGradeCS"
+            type="com.keno8.struts.action.admin.PreUpdateGradeCSAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/system/gradecs.jsp"></forward>
+    <forward name="failure" path="/system/gradecs.jsp"></forward>
+    </action>
+    
+    <action path="/system/UpdateGradeCS"
+            type="com.keno8.struts.action.admin.UpdateGradeCSAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/system/PreUpdateGradeCS.do"></forward>
+    <forward name="failure" path="/system/PreUpdateGradeCS.do"></forward>
+    </action>
+   
+   
+    <!-- 数据管理 -->
+    <action path="/lottery/dataManage" type="com.keno8.struts.action.datemanage.DataManageAction">
+        <forward name="countList" path="/lottery/dataManage.do?action=list"></forward>
+        <forward name="datamanage" path="/lottery/datamanage.jsp"></forward>
+        <forward name="deleteRecord" path="/lottery/dataManage.do?action=list"></forward>
+    </action>
+    <!-- 数据库下载 -->
+    <action path="/download" type="com.keno8.struts.action.datemanage.DownloadAction">
+    </action>
+    
+    <!-- kaileba即时注单 -->
+    <action path="/lottery/notesingleList" type="com.keno8.struts.action.single.NoteSingleAction">
+        <forward name="noteSingleList" path="/lottery/notesinglelist.jsp"></forward>
+        <forward name="addhandicap" path="/lottery/handicapList.do?action=handicapList"></forward>
+        <forward name="3DnotesingleList" path="/lottery/notesingle3Dlist.jsp"></forward>
+        <forward name="noteDetails" path="/lottery/usernotesinglelist.jsp"></forward>
+    </action>
+    
+    <!-- 8keno盘口设定 -->
+    <action path="/lottery/handicapList" type="com.keno8.struts.action.handicap.HandicapAction">
+        <forward name="handicapList" path="/lottery/handicaplist.jsp"></forward>
+        <forward name="addhandicap" path="/lottery/handicapList.do?action=handicapList"></forward>
+        <forward name="delete" path="/lottery/handicapList.do?action=handicapList"></forward>
+        <forward name="failure" path="/lottery/handicapList.do?action=handicapList"></forward>
+    </action>
+    
+        <!-- 8keno开奖号码补录 -->
+     <action path="/lottery/perodinumResult" type="com.keno8.struts.action.peroidnum.PerodinumResultAction">
+        <forward name="resultList" path="/lottery/perodinumresultlist.jsp"></forward>
+        <forward name="addResult" path="/lottery/perodinumResult.do?action=resultList"></forward>
+        <forward name="updateResult" path="/lottery/perodinumResult.do?action=resultList"></forward>
+        <forward name="result3DList" path="/lottery/perodinum3Dresultlist.jsp"></forward>
+        <forward name="add3DResult" path="/lottery/perodinumResult.do?action=result3DList"></forward>
+        <forward name="jiesuanResult" path="/lottery/perodinumResult.do?action=resultList"></forward>
+        <forward name="jiesuan3DShiShiLeResult" path="/lottery/perodinumResult.do?action=result3DList"></forward>
+    </action>
+    
+     <action path="/gameuser/bbtjOne"
+            type="com.keno8.struts.action.gameUser.mark.GameUserBBTJ_DayAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="userSuccess" path="/bbtj/gameuserlistToday.jsp"></forward>
+    <forward name="success" path="/bbtj/gamebbtjToday.jsp"></forward>
+    </action>
+    
+        <!-- 统计报表 -->
+    <action path="/gameuser/bbtj"
+            type="com.keno8.struts.action.gameUser.mark.GameUserBBTJAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/bbtj/gamebbtjinfo.jsp"></forward>
+    </action>
+    <action path="/gameuser/bbtjOne"
+            type="com.keno8.struts.action.gameUser.mark.GameUserBBTJ_DayAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="userSuccess" path="/bbtj/gameuserlistToday.jsp"></forward>
+    <forward name="success" path="/bbtj/gamebbtjToday.jsp"></forward>
+    </action>
+    
+    <action path="/gameuser/gamescoreInfoDetail"
+            type="com.keno8.struts.action.gameUser.mark.GameScoreInfoDetailAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success_gameRecord" path="/bbtj/gamescoreinfodetail_gameRecord.jsp"></forward>
+    <forward name="success_gameRecordOfDate" path="/bbtj/gamescoreinfodetailofdate_gameRecord.jsp"></forward>
+    </action>
+    
+     <!-- ======================================新增彩票配置文件======================================== -->
+     
+     
+     
+    <!-- 信息统计 -->
+    <action path="/system/dateCount" 
+   			type="com.doowal.hk798.admin.DataCountAction"
+   			parameter="method"
+            scope="request"
+            validate="false"
+    >
+    <forward name="countuser" path="/system/moneyView.jsp"></forward>
+    </action>
+    
+    <!-- 数据管理 -->
+    <action path="/system/dataManage" type="com.doowal.hk798.admin.DataManageAction" scope="request" validate="false">
+    <forward name="countList" path="/system/dataManage.do?action=list"></forward>
+    <forward name="datamanage" path="/system/datamanage.jsp"></forward>
+    <forward name="deleteRecord" path="/system/dataManage.do?action=list"></forward>
+    </action>
+    
+    <!-- 数据库下载 -->
+    <action path="/download" type="com.doowal.hk798.admin.DownloadAction">
+    </action>
+    
+    <!-- 卡线管理 -->
+   <action path="/game/RoomLine" 
+   			type="com.doowal.hk798.game.RoomLineAction" 
+            scope="request"
+            validate="false"
+    >
+    <forward name="list" path="/game/roomline.jsp"></forward>
+    <forward name="delAccounts" path="/game/RoomLine.do?action=list"></forward>
+    </action>
+    
+    <!-- 总代理List -->
+    <action path="/member/gameAgentList" type="com.doowal.hk798.gameUser.GameAgentListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="gameAgentList" path="/member/agentlist.jsp"></forward>
+    <forward name="preAdd" path="/member/agentAdd.jsp"></forward>
+    <forward name="addUser" path="/member/gameAgentList.do?action=gameAgentList"></forward>
+    <forward name="failure" path="/member/gameAgentList.do?action=preAdd"></forward>
+    <forward name="zhFrozen" path="/member/gameAgentList.do?action=gameAgentList"></forward>
+    <forward name="MemberPreCun" path="/member/agentgoldCun.jsp"></forward>
+    <forward name="MemberCun" path="/member/gameAgentList.do?action=gameAgentList"></forward>
+    <forward name="MemberCunFail" path="/member/gameAgentList.do?action=MemberPreCun"></forward>
+    <forward name="MemberPreQu" path="/member/agentgoldQu.jsp"></forward>
+    <forward name="MemberQu" path="/member/gameAgentList.do?action=gameAgentList"></forward>
+    <forward name="MemberQuFail" path="/member/gameAgentList.do?action=MemberPreQu"></forward>
+    <forward name="preUpdate" path="/member/agentMsg.jsp"></forward>
+    <forward name="preAgentUpdate" path="/member/agentInfo.jsp"></forward>
+    <forward name="update" path="/member/gameAgentList.do?action=gameAgentList"></forward>
+    <forward name="updateFailure" path="/member/gameAgentList.do?action=preUpdate"></forward>
+    <forward name="preauthRelation" path="/member/authRelation.jsp"></forward>
+    <forward name="updateauthRelation" path="/member/gameAgentList.do?action=gameAgentList"></forward>
+    <forward name="userLogs" path="/member/usernameLog.jsp"></forward>
+    <forward name="delLogs" path="/member/gameAgentList.do?action=userLogs"></forward>
+    </action>
+   
+    <!-- 真人用户List -->
+    <action path="/member/gameuserList" type="com.doowal.hk798.gameUser.GameUserListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="gameUserList" path="/member/agent.jsp"></forward>
+    <forward name="agentList" path="/member/agent.jsp"></forward>
+    <forward name="jquserList" path="/member/jqusername.jsp"></forward>
+    <forward name="freeze" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="UnFreeze" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="zhFrozen" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="zhFrozenUser" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="zsScore" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="zsJifen" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="prezsGameID" path="/member/agentaddgameID.jsp"></forward>
+    <forward name="zsGameID" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="zsExperience" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="setupAndroid" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="presetupJuserFailure" path="/member/gamejquserList.do?action=gameUserList"></forward>
+    <forward name="presetupJuser" path="/member/agentjuser.jsp"></forward>
+    <forward name="setupJuser" path="/member/gamejquserList.do?action=gameUserList"></forward>
+    <forward name="preUpdate" path="/member/usernameMsg.jsp"></forward>
+    <forward name="update" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="updateFailure" path="/member/gameuserList.do?action=preUpdate"></forward>
+    <forward name="deleteUser" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="interType" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="clearScore" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="userLogs" path="/member/usernameLog.jsp"></forward>
+    <forward name="delLogs" path="/member/gameuserList.do?action=userLogs"></forward>
+    <forward name="delAll" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="qxSpecialRight" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="preAdd" path="/member/usernameAdd.jsp"></forward>
+    <forward name="addUser" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="failure" path="/member/agentAdd.jsp"></forward>
+    <forward name="preauthRelation" path="/member/authRelation.jsp"></forward>
+    <forward name="updateauthRelation" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="updateauthRelationFail" path="/member/gameuserList.do?action=preauthRelation"></forward>
+    <forward name="MemberPreCun" path="/member/goldCun.jsp"></forward>
+    <forward name="MemberCun" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="MemberCunFail" path="/member/gameuserList.do?action=MemberPreCun"></forward>
+    <forward name="MemberPreQu" path="/member/goldQu.jsp"></forward>
+    <forward name="MemberQu" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="MemberQuFail" path="/member/gameuserList.do?action=MemberPreQu"></forward>
+    <forward name="addsx" path="/member/gameuserList.do?action=gameUserList"></forward>
+    <forward name="giftScore" path="/member/gameuserList.do?action=gameUserList"></forward>
+    
+    <forward name="spreaderSet" path="/member/spreaderSet.jsp"></forward>
+    <forward name="spreaderSetUpdate" path="/member/gameuserList.do?action=spreaderSet"></forward>
+    <forward name="SpreaderUserList" path="/member/spreaderList.jsp"></forward>
+    </action>
+    
+    <!-- 机器人管理 -->
+    <action path="/member/gamejquserList" type="com.doowal.hk798.gameUser.GameJQUserAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="jquserList" path="/member/jqusername.jsp"></forward>
+    <forward name="zsScore" path="/member/gamejquserList.do?action=gameUserList"></forward>
+    <forward name="zsJifen" path="/member/gamejquserList.do?action=gameUserList"></forward>
+    <forward name="delAll" path="/member/gamejquserList.do?action=gameUserList"></forward>
+    <forward name="qxJuser" path="/member/gamejquserList.do?action=gameUserList"></forward>
+    <forward name="zsExperience" path="/member/gamejquserList.do?action=gameUserList"></forward>
+    <forward name="OxNEW" path="/member/gamejquserList.do?action=gameUserList"></forward>
+    <forward name="RedLine" path="/member/gamejquserList.do?action=gameUserList"></forward>
+    </action>
+    
+    <!-- 管理用户List -->
+    <action path="/member/gamemasterList" type="com.doowal.hk798.gameUser.GameUserMasterListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="gameMasterList" path="/member/gameusermasterList.jsp"></forward>
+    <forward name="zhFrozen" path="/member/gamemasterList.do?action=gameMasterList"></forward>
+    <forward name="szbs" path="/member/gamemasterList.do?action=gameMasterList"></forward>
+    <forward name="qxbs" path="/member/gamemasterList.do?action=gameMasterList"></forward>
+    <forward name="readright" path="/member/gameusermasterLimit.jsp"></forward>
+    <forward name="saveright" path="/member/gamemasterList.do?action=gameMasterList"></forward>
+    </action>
+    
+    <!-- 比赛用户List -->
+    <action path="/member/gameRaceList" type="com.doowal.hk798.gameUser.GameUserRaceListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="userRaceList" path="/member/gameuserRaceList.jsp"></forward>
+    <forward name="savegroup" path="/member/gameRaceList.do?action=userRaceList"></forward>
+    <forward name="szbs" path="/member/gameRaceList.do?action=userRaceList"></forward>
+    <forward name="qxbs" path="/member/gameRaceList.do?action=userRaceList"></forward>
+    </action>
+    
+    <!-- 保留用户List -->
+    <action path="/member/gameConfineList" type="com.doowal.hk798.gameUser.GameUserConfineListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="gameConfineList" path="/member/confineContent.jsp"></forward>
+    <forward name="addConfine" path="/member/gameConfineList.do?action=gameConfineList"></forward>
+    <forward name="delConfine" path="/member/gameConfineList.do?action=gameConfineList"></forward>
+    <forward name="delete" path="/member/gameConfineList.do?action=gameConfineList"></forward>
+    </action>
+    
+    <!-- 限制用户List -->
+    <action path="/member/ConfineList" type="com.doowal.hk798.gameUser.GameUserXZListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="gameUserXZ" path="/member/confineContent.jsp"></forward>
+    <forward name="addgameUserXZ" path="/member/ConfineList.do?action=gameUserXZ"></forward>
+    <forward name="preaddgameUserXZ" path="/member/addconfineContent.jsp"></forward>
+    <forward name="delAll" path="/member/ConfineList.do?action=gameUserXZ"></forward>
+    <forward name="confineAddress" path="/member/confineAddress.jsp"></forward>
+    <forward name="preaddconfineAddress" path="/member/addconfineAddress.jsp"></forward>
+    <forward name="addconfineAddress" path="/member/ConfineList.do?action=confineAddress"></forward>
+    <forward name="delAllAddress" path="/member/ConfineList.do?action=confineAddress"></forward>
+    <forward name="confineMachine" path="/member/confineMachine.jsp"></forward>
+    <forward name="preaddconfineMachine" path="/member/addconfineMachine.jsp"></forward>
+    <forward name="addconfineMachine" path="/member/ConfineList.do?action=confineMachine"></forward>
+    <forward name="delAllMachine" path="/member/ConfineList.do?action=confineMachine"></forward>
+    </action>
+    
+    
+    <!-- 特殊用户List -->
+    <action path="/member/gameSpecialList" type="com.doowal.hk798.gameUser.GameSpecialListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="gameSpecialList" path="/member/specialuser.jsp"></forward>
+    </action>
+    
+    
+    <!-- 用户银子List -->
+    <action path="/member/gamegoldList" type="com.doowal.hk798.gameUser.GameGoldListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="gameGoldList" path="/member/agentgoldlist.jsp"></forward>
+    <forward name="gameScoreList" path="/member/agentscorelist.jsp"></forward>
+    <forward name="gamerecordList" path="/member/goldUserRecord.jsp"></forward>
+    <forward name="gamebankRecord" path="/member/bankRecordlist.jsp"></forward>
+    <forward name="rechargeRecord" path="/gold/payRecord.jsp"></forward>
+    <forward name="gameUserInOutRecord" path="/member/RecordUserInoutList.jsp"></forward>
+    <forward name="gameUserDrawRecord" path="/member/RecordGameList.jsp"></forward>
+    <forward name="gameUserInfoRecord" path="/member/RecordGameUserList.jsp"></forward>
+    </action>
+    
+    <!-- 点卡管理List -->
+    <action path="/gold/cardList" type="com.doowal.hk798.card.CardAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="cardList" path="/gold/card.jsp"></forward>
+    <forward name="cardInfo" path="/gold/cardInfo.jsp"></forward>
+    <forward name="cardRecord" path="/gold/cardRecord.jsp"></forward>
+    <forward name="delete" path="/gold/cardList.do?action=list"></forward>
+    <forward name="updateNullity" path="/gold/cardList.do?action=cardInfo"></forward>
+    <forward name="preCreate" path="/gold/createCard.jsp"></forward>
+    <forward name="create" path="/gold/cardList.do?action=list"></forward>
+    <forward name="createFailure" path="/gold/cardList.do?action=preCreate"></forward>
+    <forward name="onlineOrder" path="/gold/onlineOrder.jsp"></forward>
+    <forward name="addBeizhu" path="/gold/cardList.do?action=list"></forward>
+    <forward name="excel" path="/gold/cardList.do?action=list"></forward>
+    </action>
+    
+    <!-- 网银交易List 取款-->
+    <action path="/gold/drawList" type="com.doowal.hk798.gameUser.GameUserDrawAmountAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="drawList" path="/gold/internetbanking.jsp"></forward>
+    <forward name="dealDraw" path="/gold/drawList.do?action=showDrawList"></forward>
+    <forward name="dealCancel" path="/gold/drawList.do?action=showDrawList"></forward>
+    </action>
+    
+    <!-- 存款 -->
+    <action path="/gold/yeepayList" type="com.doowal.hk798.gameUser.GameUseryeepayAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="showYeepayList" path="/gold/deposit.jsp"></forward>
+    <forward name="delYeepay" path="/gold/yeepayList.do?action=showYeepayList"></forward>
+    <forward name="updateYeepay" path="/gold/yeepayList.do?action=showYeepayList"></forward>
+    <forward name="preAddYeepay" path="/gold/budan.jsp"></forward>
+    <forward name="addYeaapy" path="/gold/yeepayList.do?action=showYeepayList"></forward>
+    <forward name="failure" path="/gold/yeepayList.do?action=preAddYeepay"></forward>
+    </action>
+    
+    <!-- 游戏房间管理 -->
+	<action path="/game/roomManage" type="com.doowal.hk798.roomManage.RoomManage">
+    </action>
+    
+   <!-- 2014-11-21电子游艺房间管理 -->
+	<action path="/game/dzroomManage" type="com.doowal.hk798.roomManage.DZGameRoomManage">
+    </action>
+    
+    <!-- 系统维护管理 -->
+    <action path="/game/gameSystem" type="com.doowal.hk798.game.GameSystemAction">
+    <forward name="machine" path="/game/machine.jsp"></forward>
+    <forward name="addMachine" path="/game/gameSystem.do?action=machine"></forward>
+    <forward name="delAll" path="/game/gameSystem.do?action=machine"></forward>
+    
+    <forward name="gameGameItem" path="/game/gameGameItem.jsp"></forward>
+    <forward name="preUpdategameGameItem" path="/game/updategamegameItem.jsp"></forward>
+    <forward name="gameTypeItem" path="/game/gameTypeItem.jsp"></forward>
+    <forward name="gameKindItem" path="/game/gameKindItem.jsp"></forward>
+    <forward name="gameNodeItem" path="/game/gameNodeItem.jsp"></forward>
+    <forward name="gamePageItem" path="/game/gamePageItem.jsp"></forward>
+    <forward name="gameProperty" path="/game/gameProperty.jsp"></forward>
+    <forward name="SystemMessage" path="/game/systemMessage.jsp"></forward>
+    <forward name="GameRoomInfo" path="/game/gameRoomInfo.jsp"></forward>
+    <!-- 泡点设置 -->
+    <forward name="globalPlayPresent" path="/game/globalPlayPresent.jsp"></forward>
+    </action>
+    
+    <!-- 会员报表统计-->
+    <action path="/baob/gameUserBBTJ" type="com.doowal.hk798.bbtj.GameUserBBTJAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="bbtjSuccess" path="/baob/baobmember.jsp"></forward>
+    <forward name="usergameRecord" path="/baob/usergamerecord.jsp"></forward>
+    <forward name="userzsRecord" path="/baob/userzsrecord.jsp"></forward>
+    <forward name="userOLRecord" path="/baob/userolrecord.jsp"></forward>
+    <forward name="userZZRecord" path="/baob/userzzrecord.jsp"></forward>
+    <forward name="SpreaderInfoTCRecord" path="/baob/gamespreaderInfo.jsp"></forward>
+    <forward name="SpreaderDetailTCRecord" path="/baob/gamespreaderDetail.jsp"></forward>
+    </action>
+    
+    <!-- 代理统计报表 -->
+    <action path="/baob/bbtj"
+            type="com.doowal.struts.action.bbtj.GameUserBBTJAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/baob/gamebbtjinfo.jsp"></forward>
+    <forward name="baobAgentBrg" path="/baob/baobagentBrg.jsp"></forward>
+    <forward name="baobAgentJjg" path="/baob/baobagentJjg.jsp"></forward>
+     <forward name="baobDel" path="/baob/baobdel.jsp"></forward>
+    </action>
+    
+    <action path="/baob/gamescoreInfoDetail"
+            type="com.doowal.struts.action.bbtj.GameScoreInfoDetailAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success_gameRecord" path="/baob/gamescoreinfodetail_gameRecord.jsp"></forward>
+    <forward name="success_gameRecordOfDate" path="/baob/gamescoreinfodetailofdate_gameRecord.jsp"></forward>
+    </action>
+    
+    <!-- ================游戏商城=================== -->
+    <action path="/shoping/gameshopList"
+            type="com.doowal.hk798.mall.GameMallListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="mallItemsList" path="/shoping/shop.jsp"></forward>
+    <forward name="preAddMall" path="/shoping/shopAdd.jsp"></forward>
+    <forward name="addMallItems" path="/shoping/gameshopList.do?action=mallItemsList"></forward>
+    <forward name="preUpdateMall" path="/shoping/shopUpdate.jsp"></forward>
+    <forward name="updateMall" path="/shoping/gameshopList.do?action=mallItemsList"></forward>
+    <forward name="deleteMall" path="/shoping/gameshopList.do?action=mallItemsList"></forward>
+    <forward name="mallDetails" path="/shoping/gameshopdetail.jsp"></forward>
+    <forward name="addfailure" path="/shoping/gameshopList.do?action=preAddMallItems"></forward>
+    <forward name="updateState" path="/shoping/gameshopList.do?action=mallItemsList"></forward>
+    <forward name="mallType" path="/shoping/shopclass.jsp"></forward>
+    <forward name="preupdatemallType" path="/shoping/shopclassEdit.jsp"></forward>
+    <forward name="updatemallType" path="/shoping/gameshopList.do?action=mallType"></forward>
+    </action>
+    
+    <!-- 上传图片 -->
+	<action path="/shoping/uploadphoto" type="com.doowal.hk798.mall.UploadPhotoAction"
+		validate="false">
+		<forward name="success1" path="/shoping/FileUploadInner1.jsp" />
+	</action>
+    
+    <!-- 网站管理-->
+    <action path="/web/webList" type="com.doowal.hk798.bbtj.GameUserBBTJAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="bbtjSuccess" path="/baob/baobmember.jsp"></forward>
+    </action>
+    
+    <!-- 兑换管理-->
+    <action path="/integral/dhList" type="com.doowal.hk798.dhRecord.DhListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="dhRecordlist" path="/integral/integralAdmin.jsp"></forward>
+    <forward name="deleteDhRecord" path="/integral/dhList.do?action=dhRecordList"></forward>
+    <forward name="preDhRecord" path="/integral/integralEdit.jsp"></forward>
+    <forward name="updateDhRecord" path="/integral/dhList.do?action=dhRecordList"></forward>
+    <forward name="cancelDhRecord" path="/integral/dhList.do?action=dhRecordList"></forward>
+    </action>
+    
+    
+    <!-- 新兑换管理-->
+    <action path="/member/dhList" type="com.doowal.hk798.dhRecord.DhListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="dhRecordConvertPresent" path="/member/RecordPresentlist.jsp"></forward>
+    <forward name="dhRecordConvertMedal" path="/member/RecordUserMedallist.jsp"></forward>
+    </action>
+    
+    
+  <!-- ==================================================================== -->
+  <!-- 广告管理的Action -->
+    <action path="/web/adList"
+            type="com.doowal.staworld.advertisement.AdvertisementListAction"
+            scope="request"
+            validate="false"
+            >
+    <forward name="success" path="/web/ad.jsp"></forward>
+    <forward name="failure" path="/login.jsp"></forward>
+    </action>
+    
+    <action path="/web/adPreAdd"
+            type="com.doowal.staworld.advertisement.AdvertisementPreAddAction"
+            scope="request"
+            validate="false"
+            >
+    <forward name="success" path="/web/adadd.jsp"></forward>
+    <forward name="failure" path="/login.jsp"></forward>
+    </action>
+    
+    <action path="/web/adAdd"
+            type="com.doowal.staworld.advertisement.AdvertisementAddAction"
+            scope="request"
+            validate="false"
+            >
+    <forward name="success" path="/web/adList.do"></forward>
+    <forward name="failure" path="/login.jsp"></forward>
+    </action>
+    
+    <action path="/web/adDetail"
+            type="com.doowal.staworld.advertisement.AdvertisementDetailAction"
+            scope="request"
+            validate="false"
+            >
+    <forward name="success" path="/web/addetail.jsp"></forward>
+    <forward name="failure" path="/login.jsp"></forward>
+    </action>
+    
+    <action path="/web/adDel"
+            type="com.doowal.staworld.advertisement.AdvertisementDeleteAction"
+            scope="request"
+            validate="false"
+            >
+    <forward name="success" path="/web/adList.do"></forward>
+    <forward name="failure" path="/login.jsp"></forward>
+    </action>
+    
+   <action path="/web/adPreUpdate"
+            type="com.doowal.staworld.advertisement.AdvertisementPreUpdateAction"
+            scope="request"
+            validate="false"
+            >
+    <forward name="success" path="/web/adupdate.jsp"></forward>
+    <forward name="failure" path="/login.jsp"></forward>
+    </action>
+    
+    <action path="/web/adUpdate"
+            type="com.doowal.staworld.advertisement.AdvertisementUpdateAction"
+            scope="request"
+            validate="false"
+            >
+    <forward name="success" path="/web/adList.do"></forward>
+    <forward name="failure" path="/login.jsp"></forward>
+    </action>
+    
+     <action path="/web/adChangeState"
+            type="com.doowal.staworld.advertisement.AdChangeStateAction"
+            name="newsForm"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/adList.do"></forward>
+    <forward name="failure" path="/web/adList.do"></forward>
+    </action>
+    
+    <!-- ==================================================================== -->
+    <!-- 新闻公告的action --> 
+    <action path="/web/newsPreAdd"
+            type="com.doowal.struts.action.news.NewsPreAddAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/newsadd.jsp"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/newsAdd"
+            type="com.doowal.struts.action.news.NewsAddAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/newsList.do?curPage=1"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    
+    <action path="/web/newsList"
+            type="com.doowal.struts.action.news.NewsListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/newlist.jsp"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/newsPreUpdate"
+            type="com.doowal.struts.action.news.NewsPreUpdateAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/newsupdate.jsp"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/newsUpdate"
+            type="com.doowal.struts.action.news.NewsUpdateAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/newsList.do"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/newsChangeState"
+            type="com.doowal.struts.action.news.NewsChangeStateAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/newsList.do"></forward>
+    <forward name="failure" path="/web/newsList.do"></forward>
+    </action>
+    
+    
+    <action path="/web/newsDelete"
+            type="com.doowal.struts.action.news.NewsDeleteAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/newsList.do"></forward>
+    <forward name="failure" path="/web/newsList.do"></forward>
+    </action>
+    
+    <!-- 游戏规则 -->
+    <action path="/web/gamerulesList"
+            type="com.doowal.struts.action.news.GameRulesListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/gameruleslist.jsp"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <!-- 问题帮助 -->
+    <action path="/web/issueList"
+            type="com.doowal.struts.action.news.IssueListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/issuelist.jsp"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/issueAdd"
+            type="com.doowal.struts.action.news.IssueAddAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/issueList.do?curPage=1"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/issuePreUpdate"
+            type="com.doowal.struts.action.news.IssuePreUpdateAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/issueupdate.jsp"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/issueUpdate"
+            type="com.doowal.struts.action.news.IssueUpdateAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/issueList.do"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/issueChangeState"
+            type="com.doowal.struts.action.news.IssueChangeStateAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/issueList.do"></forward>
+    <forward name="failure" path="/web/issueList.do"></forward>
+    </action>
+    
+    
+    <action path="/web/issueDelete"
+            type="com.doowal.struts.action.news.IssueDeleteAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/issueList.do"></forward>
+    <forward name="failure" path="/web/issueList.do"></forward>
+    </action>
+    
+    <!-- 娱乐场游戏介绍 -->
+    <action path="/web/gameList"
+            type="com.doowal.struts.action.game.GameListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/game.jsp"></forward>
+    <forward name="preUpdate" path="/web/gameupdate.jsp"></forward>
+    <forward name="update" path="/web/gameList.do?action=gameList"></forward>
+    <forward name="isRec" path="/web/gameList.do?action=gameList"></forward>
+    <forward name="gameAdd" path="/web/gameList.do?action=gameList"></forward>
+    <forward name="gameDel" path="/web/gameList.do?action=gameList"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    
+    <!-- 上传图片 -->
+	<action path="/shoping/uploadphoto" type="com.doowal.hk798.mall.UploadPhotoAction"
+		validate="false">
+		<forward name="success1" path="/web/FileUploadInner1.jsp" />
+	</action>
+	
+	<!-- 单页管理 -->
+	<action path="/web/pageOneList"
+            type="com.doowal.struts.action.news.PageOneListAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/pageone.jsp"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/pageOnePreUpdate"
+            type="com.doowal.struts.action.news.PageOnePreUpdateAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/pageoneupdate.jsp"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/pageOneUpdate"
+            type="com.doowal.struts.action.news.PageOneUpdateAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/pageOneList.do"></forward>
+    <forward name="failure" path="/msg.jsp"></forward>
+    </action>
+    
+    <action path="/web/pageoneChangeState"
+            type="com.doowal.struts.action.news.PageOneChangeStateAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/web/pageOneList.do"></forward>
+    <forward name="failure" path="/web/pageOneList.do"></forward>
+    </action>
+    
+    
+    <!-- 即时注单 -->
+    <action path="/single/notesingleList" scope="request" type="com.doowal.struts.single.NoteSingleAction">
+        <forward name="noteSingleList" path="/single/notesinglelist.jsp"></forward>
+        <forward name="noteDetails" path="/single/usernotesinglelist.jsp"></forward>
+    </action>
+    
+    <!-- 即时注单 |新加|-->
+    <action path="/single/noteList" scope="request" type="com.doowal.struts.single.Note2Action">
+    </action>
+    
+    <!-- 棋牌|百家乐|骰宝|轮盘-->
+    <!-- 百家乐|视频文件列表 -->
+	<action path="/bjl/video" 
+			type="com.manage.struts.video.VideoAction" validate="false" scope="request">
+		<forward name="videoPreAdd" path="/bjl/bjl_video_add.jsp" />
+		<forward name="success" path="/bjl/bjl_video_manage.jsp" />
+	</action>
+	<action path="/bjl/sbvideo" 
+			type="com.manage.struts.video.SBVideoAction" validate="false" scope="request">
+		<forward name="videoPreAdd" path="/bjl/sb_video_add.jsp" />
+		<forward name="success" path="/bjl/sb_video_manage.jsp" />
+	</action>
+	<!-- 百家乐|上传视频 -->
+    <action path="/bjl/uploadvideo" type="com.manage.struts.video.UploadVideoAction"
+			validate="false">
+			<forward name="success1" path="/bjl/FileUploadInner.jsp" />
+	</action>
+    <!-- 百家乐|视频播放列表 -->
+    <action path="/bjl/videoPlayList" type="com.manage.struts.video.VideoPlayListAction"
+			validate="false">
+			<forward name="success" path="/bjl/bjl_video_playlist.jsp" />
+			<forward name="bfsuccess" path="/bjl/videoPlayList.do?action=list" />
+	</action>
+	<action path="/bjl/sbvideoPlayList" type="com.manage.struts.video.SBVideoPlayListAction"
+			validate="false">
+			<forward name="success" path="/bjl/sb_video_playlist.jsp" />
+			<forward name="bfsuccess" path="/bjl/sbvideoPlayList.do?action=list" />
+	</action>
+	
+	<!-- 游戏记录 -->
+    <action path="/gameRecord/gameRecord" scope="request" type="com.keno8.struts.action.gameRecord.GameRecordAction">
+        <forward name="gameRecordList" path="/gameRecord/gameRecord.jsp"></forward>
+    </action>
+    
+    <!-- 用户限红管理 -->
+    <action path="/userbetlimit/betLimitList" type="com.suncity.struts.betlimit.GameUserLimitAction">
+        <forward name="betLimitList" path="/userbetlimit/betlimitlist.jsp"></forward>
+        <forward name="preAdd" path="/userbetlimit/betlimitadd.jsp"></forward>
+        <forward name="addLimit" path="/userbetlimit/betLimitList.do?action=betLimitList"></forward>
+        <forward name="preUpdate" path="/userbetlimit/betlimitupdate.jsp"></forward>
+        <forward name="updateLimit" path="/userbetlimit/betLimitList.do?action=betLimitList"></forward>
+    </action>
+	
+	<!-- 百家乐游戏结果修改 -->
+    <action path="/bjl/gameResultManage" scope="request" type="com.manage.struts.videoFileNameResult.GameResultManageAction">
+        <forward name="gameResultManageList" path="/bjl/videoResult.jsp"></forward>
+        <forward name="updateResult" path="/bjl/gameResultManage.do?action=gameResultManageList"></forward>
+    </action>
+    
+     <!-- 骰宝游戏结果修改 -->
+    <action path="/bjl/sbgameResultManage" scope="request" type="com.manage.struts.videoFileNameResult.SBGameResultManageAction">
+        <forward name="gameResultManageList" path="/bjl/sbvideoResult.jsp"></forward>
+        <forward name="updateResult" path="/bjl/sbgameResultManage.do?action=gameResultManageList"></forward>
+    </action>
+     
+    <!-- 网站管理 -->
+    <action path="/web/GameMatchInfoList"
+            type="com.doowal.struts.action.news.GameMatchInfoListAction"
+            validate="false"
+    >
+    <forward name="gameMatchList" path="/web/gamematchlist.jsp"></forward>
+    <forward name="gameFeedBackList" path="/web/gameFeedback.jsp"></forward>
+    <forward name="noticeList" path="/web/notice.jsp"></forward>
+    </action>
+    
+    
+    
+   <!-- 公告管理 -->
+   <action path="/system/PreUpdateNetCS"
+            type="com.wiiy.struts.PreUpdateNetCSAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/system/wancs.jsp"></forward>
+    <forward name="failure" path="/system/wancs.jsp"></forward>
+    </action>
+    
+    <action path="/system/UpdateNetCS"
+            type="com.wiiy.struts.UpdateNetCSAction"
+            scope="request"
+            validate="false"
+    >
+    <forward name="success" path="/system/wancs.jsp"></forward>
+    <forward name="failure" path="/system/wancs.jsp"></forward>
+    </action>
+                  
+    </action-mappings>
+    <!-- ========== Controller Configuration ================================ -->
+    <controller> 
+		<set-property property="nocache" value="true"/> 
+	</controller>
+    
+    <!-- ========== Message Resources Definitions ============================ -->
+    <message-resources parameter="com.doowal.hk798.struts.ApplicationResources" ></message-resources>
+  
+</struts-config>
+

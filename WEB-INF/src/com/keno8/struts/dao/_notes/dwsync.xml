@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AdminDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991718750" remote="130607876990000000" Dst="0" />
+<file name="AuthorityMenuViewDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876992187500" remote="130607876990000000" Dst="0" />
+<file name="ConfineContentDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876990937500" remote="130607876990000000" Dst="0" />
+<file name="DataCountDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991406250" remote="130607876990000000" Dst="0" />
+<file name="DrawAmountDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991406250" remote="130607876990000000" Dst="0" />
+<file name="GameDhScoreDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991250000" remote="130607876990000000" Dst="0" />
+<file name="GameGoldDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991250000" remote="130607876990000000" Dst="0" />
+<file name="GameScoreInfoDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991250000" remote="130607876990000000" Dst="0" />
+<file name="GameShopCateDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991875000" remote="130607876990000000" Dst="0" />
+<file name="GameShopCateTypeDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991875000" remote="130607876990000000" Dst="0" />
+<file name="GameUserDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876992187500" remote="130607876990000000" Dst="0" />
+<file name="GameUserJifenDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991406250" remote="130607876990000000" Dst="0" />
+<file name="GameUserScoreDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876992031250" remote="130607876990000000" Dst="0" />
+<file name="GameYeepayDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991718750" remote="130607876990000000" Dst="0" />
+<file name="GradeCSDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876992031250" remote="130607876990000000" Dst="0" />
+<file name="GradeExpregferenceDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991562500" remote="130607876990000000" Dst="0" />
+<file name="MonitorUserRecordDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991562500" remote="130607876990000000" Dst="0" />
+<file name="NetCSDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991093750" remote="130607876990000000" Dst="0" />
+<file name="OperateLogsDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991562500" remote="130607876990000000" Dst="0" />
+<file name="RelationDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991093750" remote="130607876990000000" Dst="0" />
+<file name="RoleDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991875000" remote="130607876990000000" Dst="0" />
+<file name="UserDhRecordDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991718750" remote="130607876990000000" Dst="0" />
+<file name="UserGoldFlowDAO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876991093750" remote="130607876990000000" Dst="0" />
+</dwsync>

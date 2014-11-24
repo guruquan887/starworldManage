@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ClassDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145810156250" remote="130610145810000000" Dst="0" />
+<file name="ClassDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145810156250" remote="130610145810000000" Dst="0" />
+<file name="GameFeedMatchDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145810156250" remote="130610145810000000" Dst="0" />
+<file name="GameFeedMatchDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145810000000" remote="130610145810000000" Dst="0" />
+<file name="GameMatchInfoListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145810000000" remote="130610145810000000" Dst="0" />
+<file name="GameRulesListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809843750" remote="130610145800000000" Dst="0" />
+<file name="IssueAddAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809843750" remote="130610145800000000" Dst="0" />
+<file name="IssueChangeStateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809687500" remote="130610145800000000" Dst="0" />
+<file name="IssueDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809687500" remote="130610145800000000" Dst="0" />
+<file name="IssueDeleteAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809531250" remote="130610145800000000" Dst="0" />
+<file name="IssueDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809687500" remote="130610145800000000" Dst="0" />
+<file name="IssueListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809531250" remote="130610145800000000" Dst="0" />
+<file name="IssuePreUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809531250" remote="130610145800000000" Dst="0" />
+<file name="IssueUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809375000" remote="130610145800000000" Dst="0" />
+<file name="NewsAddAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809218750" remote="130610145800000000" Dst="0" />
+<file name="NewsChangeStateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809218750" remote="130610145800000000" Dst="0" />
+<file name="NewsDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145809062500" remote="130610145800000000" Dst="0" />
+<file name="NewsDeleteAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808906250" remote="130610145800000000" Dst="0" />
+<file name="NewsDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808906250" remote="130610145800000000" Dst="0" />
+<file name="NewsListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808906250" remote="130610145800000000" Dst="0" />
+<file name="NewsPreAddAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808750000" remote="130610145800000000" Dst="0" />
+<file name="NewsPreUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808437500" remote="130610145800000000" Dst="0" />
+<file name="NewsUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808281250" remote="130610145800000000" Dst="0" />
+<file name="PageDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808281250" remote="130610145800000000" Dst="0" />
+<file name="PageOneChangeStateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808281250" remote="130610145800000000" Dst="0" />
+<file name="PageOneListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808125000" remote="130610145800000000" Dst="0" />
+<file name="PageOnePreUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808125000" remote="130610145800000000" Dst="0" />
+<file name="PageOneUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145808125000" remote="130610145800000000" Dst="0" />
+<file name="PicUploadServlet3.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145807968750" remote="130610145800000000" Dst="0" />
+</dwsync>

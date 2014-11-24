@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AdChangeStateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812656250" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementAddAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812656250" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812500000" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementDeleteAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812500000" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementDetailAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812343750" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812500000" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812343750" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementPreAddAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812343750" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementPreUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812187500" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementTypeDAO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812187500" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementTypeDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812187500" remote="130610145810000000" Dst="0" />
+<file name="AdvertisementUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812187500" remote="130610145810000000" Dst="0" />
+<file name="PageDTO.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812031250" remote="130610145810000000" Dst="0" />
+<file name="PicUploadServlet.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145812031250" remote="130610145810000000" Dst="0" />
+</dwsync>

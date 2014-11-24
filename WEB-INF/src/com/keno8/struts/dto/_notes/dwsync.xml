@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AdminDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876994531250" remote="130607876990000000" Dst="0" />
+<file name="ArticleDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876996093750" remote="130607876990000000" Dst="0" />
+<file name="AuthorityMenuViewDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995468750" remote="130607876990000000" Dst="0" />
+<file name="ClassDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995312500" remote="130607876990000000" Dst="0" />
+<file name="ConfineContentDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995625000" remote="130607876990000000" Dst="0" />
+<file name="DataCountDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876996093750" remote="130607876990000000" Dst="0" />
+<file name="DrawAmountDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876996093750" remote="130607876990000000" Dst="0" />
+<file name="GameDhScoreDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995937500" remote="130607876990000000" Dst="0" />
+<file name="GameGoldInfoDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876994843750" remote="130607876990000000" Dst="0" />
+<file name="GamePeroidnumResultDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876994687500" remote="130607876990000000" Dst="0" />
+<file name="GameRecordDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995312500" remote="130607876990000000" Dst="0" />
+<file name="GameShopCateDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876994843750" remote="130607876990000000" Dst="0" />
+<file name="GameShopCateTypeDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995000000" remote="130607876990000000" Dst="0" />
+<file name="GameUserDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995312500" remote="130607876990000000" Dst="0" />
+<file name="GameUserScoreDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995156250" remote="130607876990000000" Dst="0" />
+<file name="GameYeepayDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876996250000" remote="130607876990000000" Dst="0" />
+<file name="GradeCSDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995468750" remote="130607876990000000" Dst="0" />
+<file name="GradeExpregferenceDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876996250000" remote="130607876990000000" Dst="0" />
+<file name="MenuDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995156250" remote="130607876990000000" Dst="0" />
+<file name="MonitorUserRecordDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876996250000" remote="130607876990000000" Dst="0" />
+<file name="NetCSDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995625000" remote="130607876990000000" Dst="0" />
+<file name="OperateDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876994843750" remote="130607876990000000" Dst="0" />
+<file name="PageDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995781250" remote="130607876990000000" Dst="0" />
+<file name="RelationDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995937500" remote="130607876990000000" Dst="0" />
+<file name="RoleDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995000000" remote="130607876990000000" Dst="0" />
+<file name="UserDhRecordDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876994531250" remote="130607876990000000" Dst="0" />
+<file name="UserGoldFlowDTO.java" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876995781250" remote="130607876990000000" Dst="0" />
+</dwsync>

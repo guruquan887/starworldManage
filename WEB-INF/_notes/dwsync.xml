@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".cvsignore" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877355937500" remote="130607877350000000" Dst="0" />
+<file name="Button.xml" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877412500000" remote="130607877410000000" Dst="0" />
+<file name="c-1_0-rt.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350781250" remote="130607877350000000" Dst="0" />
+<file name="c-1_0.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876986093750" remote="130607876980000000" Dst="0" />
+<file name="c-rt.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350312500" remote="130607877350000000" Dst="0" />
+<file name="c.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350781250" remote="130607877350000000" Dst="0" />
+<file name="dwr.xml" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350468750" remote="130607877350000000" Dst="0" />
+<file name="fmt-1_0-rt.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877355781250" remote="130607877350000000" Dst="0" />
+<file name="fmt-1_0.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876987187500" remote="130607876980000000" Dst="0" />
+<file name="fmt-rt.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350468750" remote="130607877350000000" Dst="0" />
+<file name="fmt.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877355781250" remote="130607877350000000" Dst="0" />
+<file name="fn.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876987187500" remote="130607876980000000" Dst="0" />
+<file name="pager-taglib.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876985937500" remote="130607876980000000" Dst="0" />
+<file name="permittedTaglibs.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876987031250" remote="130607876980000000" Dst="0" />
+<file name="scriptfree.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877356093750" remote="130607877350000000" Dst="0" />
+<file name="sql-1_0-rt.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876986093750" remote="130607876980000000" Dst="0" />
+<file name="sql-1_0.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350468750" remote="130607877350000000" Dst="0" />
+<file name="sql-rt.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877412343750" remote="130607877410000000" Dst="0" />
+<file name="sql.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877355937500" remote="130607877350000000" Dst="0" />
+<file name="struts-bean.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350312500" remote="130607877350000000" Dst="0" />
+<file name="struts-config.xml" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610294126093750" remote="130610294120000000" Dst="0" />
+<file name="struts-html.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877356093750" remote="130607877350000000" Dst="0" />
+<file name="struts-logic.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877355937500" remote="130607877350000000" Dst="0" />
+<file name="struts-menu.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877356093750" remote="130607877350000000" Dst="0" />
+<file name="struts-nested.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350781250" remote="130607877350000000" Dst="0" />
+<file name="struts-template.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350781250" remote="130607877350000000" Dst="0" />
+<file name="struts-tiles.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877412343750" remote="130607877410000000" Dst="0" />
+<file name="Style.xml" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877412187500" remote="130607877410000000" Dst="0" />
+<file name="web.xml" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877412500000" remote="130607877410000000" Dst="0" />
+<file name="x-1_0-rt.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877350312500" remote="130607877350000000" Dst="0" />
+<file name="x-1_0.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877355781250" remote="130607877350000000" Dst="0" />
+<file name="x-rt.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877412500000" remote="130607877410000000" Dst="0" />
+<file name="x.tld" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877356250000" remote="130607877350000000" Dst="0" />
+</dwsync>

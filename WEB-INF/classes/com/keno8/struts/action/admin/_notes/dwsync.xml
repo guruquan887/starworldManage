@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AdminAddAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145806093750" remote="130610145800000000" Dst="0" />
+<file name="AdminDeleteAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805937500" remote="130610145800000000" Dst="0" />
+<file name="AdminListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805937500" remote="130610145800000000" Dst="0" />
+<file name="AdminPreAddAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805937500" remote="130610145800000000" Dst="0" />
+<file name="AdminPreUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805937500" remote="130610145800000000" Dst="0" />
+<file name="AdminUpdateAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805781250" remote="130610145800000000" Dst="0" />
+<file name="DataCountAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805781250" remote="130610145800000000" Dst="0" />
+<file name="LoginAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805781250" remote="130610145800000000" Dst="0" />
+<file name="MonitoringGoldDB.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805781250" remote="130610145800000000" Dst="0" />
+<file name="MyTask.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805625000" remote="130610145800000000" Dst="0" />
+<file name="OperateDeleteAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805625000" remote="130610145800000000" Dst="0" />
+<file name="OperateListAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805625000" remote="130610145800000000" Dst="0" />
+<file name="PreUpdateGradeCSAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805468750" remote="130610145800000000" Dst="0" />
+<file name="PreUpdateNetCSAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805468750" remote="130610145800000000" Dst="0" />
+<file name="RealTimeMonitoringTimer$Check.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805468750" remote="130610145800000000" Dst="0" />
+<file name="RealTimeMonitoringTimer.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805468750" remote="130610145800000000" Dst="0" />
+<file name="SessionListener.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805312500" remote="130610145800000000" Dst="0" />
+<file name="TimerManager.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805312500" remote="130610145800000000" Dst="0" />
+<file name="UpdateGradeCSAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805312500" remote="130610145800000000" Dst="0" />
+<file name="UpdateNetCSAction.class" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130610145805312500" remote="130610145800000000" Dst="0" />
+</dwsync>
