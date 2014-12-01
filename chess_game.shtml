@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>棋牌游戏</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+<!--#include file="include/header.shtml"-->
+    <div class="dian_container clearfix">
+    <div class="dian_title">
+    	<ul>
+        	<li class="title"><img src="images/qipai_game.png"/></li>
+            <li>
+            	<div class="category">
+                	<a href="#" class="active">全部游戏</a>
+                    <a href="#">百人游戏</a>
+                    <a href="#">麻将游戏</a>
+                    <a href="#">扑克游戏</a>
+                    <a href="#">休闲游戏</a>
+                </div>
+            </li>
+            <li>
+            	<div class="game-search clearfix">
+                	<input class="input"  value="搜索游戏" /><button class="search_btn"></button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="dian_wrap clearfix">
+	<div class="dian_content">
+		<h5>百家乐</h5>
+		<div class="dian_content_img"><img src="game_list/bjl.png" style="bottom: 0px;"></div>
+		<div class="dian_content_down" style="display: none;">
+			<a class="dian_content_title" href="#">进入游戏</a>
+			<a class="dian_content_gz" href="#">规则说明</a>
+		</div>
+	</div>
+	<div class="dian_content">
+		<h5>二人麻将</h5>
+		<div class="dian_content_img"><img src="game_list/Game_5035.png" style="bottom: 0px;"></div>
+		<div class="dian_content_down" style="display: none;">
+			<a class="dian_content_title" href="#">进入游戏</a>
+			<a class="dian_content_gz" href="#">规则说明</a>
+		</div>
+	</div>
+	<div class="dian_content">
+		<h5>火拼双扣</h5>
+		<div class="dian_content_img"><img src="game_list/Game_5131.png" style="bottom: 0px;"></div>
+		<div class="dian_content_down" style="display: none;">
+			<a class="dian_content_title" href="#">进入游戏</a>
+			<a class="dian_content_gz" href="#">规则说明</a>
+		</div>
+	</div>
+	<div class="dian_content">
+		<h5>德州扑克</h5>
+		<div class="dian_content_img"><img src="game_list/Game_5701.png" style="bottom: 0px;"></div>
+		<div class="dian_content_down" style="display: none;">
+			<a class="dian_content_title" href="#">进入游戏</a>
+			<a class="dian_content_gz" href="#">规则说明</a>
+		</div>
+	</div>
+	<div class="dian_content">
+		<h5>对杀梭哈</h5>
+		<div class="dian_content_img"><img src="game_list/Game_5089.png" style="bottom: 0px;"></div>
+		<div class="dian_content_down" style="display: none;">
+			<a class="dian_content_title" href="#">进入游戏</a>
+			<a class="dian_content_gz" href="#">规则说明</a>
+		</div>
+	</div>
+	<div class="dian_content">
+		<h5>填大坑</h5>
+		<div class="dian_content_img"><img src="game_list/Game_5088.png"></div>
+		<div class="dian_content_down">
+			<a class="dian_content_title" href="#">进入游戏</a>
+			<a class="dian_content_gz" href="#">规则说明</a>
+		</div>
+	</div>
+    <div class="dian_content">
+		<h5>二人牛牛</h5>
+		<div class="dian_content_img"><img src="game_list/Game_5089.png" style="bottom: 0px;"></div>
+		<div class="dian_content_down" style="display: none;">
+			<a class="dian_content_title" href="#">进入游戏</a>
+			<a class="dian_content_gz" href="#">规则说明</a>
+		</div>
+	</div>
+	<div class="dian_content">
+		<h5>百人二张</h5>
+		<div class="dian_content_img"><img src="game_list/Game_5088.png"></div>
+		<div class="dian_content_down">
+			<a class="dian_content_title" href="#">进入游戏</a>
+			<a class="dian_content_gz" href="#">规则说明</a>
+		</div>
+	</div>
+    </div>
+</div>
+    <!--页脚-->
+    <!--#include file="include/footer.shtml"-->
+    <!--//页脚-->
+
+</body>
+<script>
+$(function(){
+	$(".dian_content").mouseover(function(){
+		$(this).find(".dian_content_img img").animate({bottom:'-170px'},500);
+		$(this).find(".dian_content_down").fadeIn(500);
+	}).mouseleave(function(){
+		$(this).find(".dian_content_img img").animate({bottom:0},500);
+		$(this).find(".dian_content_down").fadeOut(500);
+	});
+})
+</script>
+</html>

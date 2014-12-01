@@ -1,0 +1,209 @@
+<!DOCTYPE HTML Public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>后台管理系统</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<LINK href="css/style.css" type=text/css rel=stylesheet>
+<link href="css/admin.css" type="text/css" rel="stylesheet">
+<script language="javascript" src="js/admin.js"></script>
+<SCRIPT>
+var status = 1;
+var Menus = new DvMenuCls;
+document.onclick=Menus.Clear;
+function switchSysBar(){
+     if (1 == window.status){
+		  window.status = 0;
+          switchPoint.innerHTML = '<img src="images/left.gif">';
+          document.all("frmTitle").style.display="none"
+     }
+     else{
+		  window.status = 1;
+          switchPoint.innerHTML = '<img src="images/right.gif">';
+          document.all("frmTitle").style.display=""
+     }
+}
+</SCRIPT>
+<META content="MSHTML 6.00.2900.5726" name=GENERATOR></HEAD>
+<BODY style="MARGIN: 0px">
+<!--导航部分-->
+<DIV class=top_table>
+<DIV class=top_table_leftbg>
+<DIV class=system_logo><IMG src="images/logo_up.gif"></DIV>
+<DIV class=menu>
+<UL>
+
+  <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>系统设置<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+	<LI><A href="system/systemadmin.html" target=frmright>账户管理</A></LI>
+	<LI><A href="system/moneyView.html" target=frmright>银子监控</A></LI>
+	<LI><A href="system/system.html" target=frmright>参数设置</A></LI>
+	<LI><A href="game/roomline.html" target=frmright>卡线管理</A></LI>
+    </UL></DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images/menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+  <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>用户管理<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+	<LI><A href="member/agent.html" target=frmright>代理商</A></LI>
+	<LI><A href="member/username.html" target=frmright>会员</A></LI>
+	<LI><A href="member/gameusermasterList.html" target=frmright>管理人员</A></LI>
+	<LI><A href="member/gameuserRaceList.html" target=frmright>比赛账户</A></LI>
+	<LI><A href="member/jqusername.html" target=frmright>机器人</A></LI>
+	<LI><A href="member/confineContent.html" target=frmright>保留用户名</A></LI>
+	<LI><A href="member/specialuser.html" target=frmright>特殊账号</A></LI>
+	
+    </UL></DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images/menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+  <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>银子管理<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+	<LI><A href="gold/goldAdmin.html" target=frmright>用户银子</A></LI>
+	<LI><A href="gold/card.html" target=frmright>充值卡管理</A></LI>
+	<LI><A href="gold/internetbanking.html" target=frmright>网银交易</A></LI>
+    </UL></DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images//menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+  <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>游戏管理<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+	<LI><A href="game/gameroom.html" target=frmright>房间管理</A></LI>
+	    </UL></DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images/menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+  <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>报表管理<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+	<LI><A href="baob/baobAdmin.html" target=frmright>代理报表</A></LI>
+	<LI><A href="baob/baobmember.html" target=frmright>会员报表</A></LI>
+	<LI><A href="baob/baobdel.html" target=frmright>报表删除</A></LI>
+	    </UL></DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images/menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+   <!--*****************-->  
+  <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>现场注单<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+	<LI><A href="single/baccarat.html" target=frmright>百家乐</A></LI>
+	<LI><A href="single/lp.html" target=frmright>轮盘</A></LI>
+	<LI><A href="single/shaibao.html" target=frmright>骰宝</A></LI>
+	<LI><A href="single/erzhang.html" target=frmright>二张</A></LI>
+	<LI><A href="single/niu.html" target=frmright>斗牛</A></LI>
+	    </UL></DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images/menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+  <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>积分管理
+	  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
+	  <UL>
+		<LI><A href="integral/integralAdmin.html" target=frmright>已受理的订单</A></LI>
+		<LI><A href="integral/integralNotAdmin.html" target=frmright>未受理的订单</A></LI>
+		</UL>
+		</DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images/menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+  <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>商品管理<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+	<LI><A href="shoping/shopclass.html" target=frmright>商品分类</A></LI>
+	<LI><A href="shoping/shop.html" target=frmright>商品管理</A></LI>
+	 </UL></DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images/menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+  <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>网站管理<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+	<LI><A href="web/ad.html" target=frmright>广告管理</A></LI>
+	<LI><A href="web/newlist.html" target=frmright>内容管理</A></LI>
+	<LI><A href="web/pageone.html" target=frmright>单页管理</A></LI>
+	<LI><A href="#" target=frmright>安全服务</A></LI>
+	<LI><A href="#" target=frmright>网站推广</A></LI>
+    </UL></DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images/menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+    <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>推广员<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+	<LI><A href="#" target=frmright>推广员</A></LI>
+    </UL></DIV>
+  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+  src="images/menu01_right.gif"></DIV>
+  </LI>
+  <!--*****************-->  
+  <LI id=menu_9 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><A href="out.php" target=frmright>退出管理</A>
+    <DIV class=menu_childs onmouseout=Menus.Hide(0);>
+  <UL>
+    <LI><A href="out.php" target=frmright>登出管理</A></LI>
+	</UL></DIV>
+	<DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>
+  </UL>
+</DIV></DIV></DIV>
+<DIV style="BACKGROUND: #337abb; HEIGHT: 24px"></DIV>
+<!--导航部分结束-->
+<TABLE style="BACKGROUND: #337abb" height="92%" cellSpacing=0 cellPadding=0 
+width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=main_left id=frmTitle vAlign=top align=middle name="fmTitle">
+      <TABLE class=main_left_top cellSpacing=0 cellPadding=0 width="100%" 
+      border=0>
+        <TBODY>
+        <TR height=32>
+          <TD vAlign=top></TD>
+          <TD class=main_left_title id=leftmenu_title>常用快捷功能</TD>
+          <TD vAlign=top align=right></TD></TR></TBODY></TABLE><IFRAME 
+      class=left_iframe id=frmleft name=frmleft 
+      src="left.html" frameBorder=0 
+      allowTransparency></IFRAME>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR height=32>
+          <TD vAlign=top></TD>
+          <TD vAlign=bottom align=middle></TD>
+          <TD vAlign=top align=right></TD></TR></TBODY></TABLE></TD>
+    <TD style="WIDTH: 10px" bgColor=#337abb>
+      <TABLE height="100%" cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD style="HEIGHT: 100%" onclick=switchSysBar()><SPAN class=navPoint 
+            id=switchPoint title=关闭/打开左栏><IMG 
+            src="images/right.gif"></SPAN> </TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top width="100%" bgColor=#337abb>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#c4d8ed 
+        border=0><TBODY>
+        <TR height=32>
+          <TD vAlign=top width=10 background=images/bg2.gif><IMG 
+            alt="" src="images/teble_top_left.gif"></TD>
+          <TD width=28 background=images//bg2.gif><IMG alt="" 
+            src="images/arrow.gif" align=absMiddle></TD>
+          <TD background=images/bg2.gif><SPAN 
+            style="FLOAT: left">最新公告：</SPAN><SPAN style="FONT-WEIGHT: bold; FLOAT: left; WIDTH: 300px; COLOR: #c00"><marquee scrollamount="2">
+          我的新内容
+          </marquee></SPAN></TD>
+          <TD style="COLOR: #135294; TEXT-ALIGN: right" 
+          background=images/bg2.gif>  <a href="#" onClick="javascript:history.go(-1)">返回</a> </TD>
+          <TD vAlign=top align=right width=28 
+          background=images/bg2.gif><IMG alt="" 
+            src="images//teble_top_right.gif"></TD>
+          <TD align=right width=16 bgColor=#337abb></TD></TR></TBODY></TABLE>
+		  <IFRAME class=main_iframe id=frmright name=frmright src="system/moneyView.html" frameBorder=0 scrolling=yes></IFRAME>
+      <TABLE style="BACKGROUND: #c4d8ed" cellSpacing=0 cellPadding=0 
+      width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD><IMG height=6 alt="" 
+            src="images/teble_bottom_left.gif" width=5></TD>
+          <TD align=right><IMG height=6 alt="" 
+            src="images/teble_bottom_right.gif" width=5></TD>
+          <TD align=right width=16 
+  bgColor=#337abb></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+</BODY></HTML>

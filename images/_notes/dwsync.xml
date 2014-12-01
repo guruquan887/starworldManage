@@ -12,7 +12,7 @@
 <file name="bottom.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876817968750" remote="130607876810000000" Dst="0" />
 <file name="bule.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876817500000" remote="130607876810000000" Dst="0" />
 <file name="button_bg.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876817187500" remote="130607876810000000" Dst="0" />
-<file name="close.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876817343750" remote="130607876810000000" Dst="0" />
+<file name="close.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
 <file name="closebg.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876815781250" remote="130607876810000000" Dst="0" />
 <file name="delete.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876817812500" remote="130607876810000000" Dst="0" />
 <file name="down.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876816718750" remote="130607876810000000" Dst="0" />
@@ -29,7 +29,7 @@
 <file name="left_bg.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876817812500" remote="130607876810000000" Dst="0" />
 <file name="left_menu_bg.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876815937500" remote="130607876810000000" Dst="0" />
 <file name="login.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876816718750" remote="130607876810000000" Dst="0" />
-<file name="login.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876815937500" remote="130607876810000000" Dst="0" />
+<file name="login.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880320000000" remote="130607880320000000" Dst="0" />
 <file name="logo_up.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876816406250" remote="130607876810000000" Dst="0" />
 <file name="menu01.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876817968750" remote="130607876810000000" Dst="0" />
 <file name="menu01_right.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876817968750" remote="130607876810000000" Dst="0" />
@@ -58,4 +58,24 @@
 <file name="top_table_leftbg.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876817656250" remote="130607876810000000" Dst="0" />
 <file name="up.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876815781250" remote="130607876810000000" Dst="0" />
 <file name="up2.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876816562500" remote="130607876810000000" Dst="0" />
+<file name="bg.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="bottomlogo.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="btnbg.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="caipai_game.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130616547990000000" remote="130616547990000000" Dst="0" />
+<file name="code_img.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880320000000" remote="130607880320000000" Dst="0" />
+<file name="game_bg.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="game_list_bg.jpg" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="indexbg.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="indexlogo.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="layer_logo.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880320000000" remote="130607880320000000" Dst="0" />
+<file name="layer_top_bg.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="login_btn.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="login_btn2.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880320000000" remote="130607880320000000" Dst="0" />
+<file name="login_line.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="logo.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="nav_bg.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="qipai_game.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130616548260000000" remote="130616548260000000" Dst="0" />
+<file name="search_btn.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880390000000" remote="130607880390000000" Dst="0" />
+<file name="service.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880320000000" remote="130607880320000000" Dst="0" />
+<file name="top_nav.png" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607880320000000" remote="130607880320000000" Dst="0" />
 </dwsync>
