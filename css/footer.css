@@ -1,9 +1,0 @@
-/* CSS Document */
-.footer{ width:1000px; height:102px; margin:auto;}
-.friendlink{ float:left; width:720px; padding:10px 0 0 0;}
-.friendlink a{ line-height:30px; padding:0px 8px;}
-.friendlink a:link,.friendlink a:visited{ color:#fff; text-decoration:none}
-.friendlink a:hover{ color:#fff; text-decoration:underline;}
-.copyright{ padding:5px 0 0 0; line-height:24px; border-top:1px dotted #414141;}
-
-
