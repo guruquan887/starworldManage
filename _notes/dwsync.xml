@@ -6,7 +6,7 @@
 <file name=".tomcatplugin" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876802031250" remote="130607876800000000" Dst="0" />
 <file name="index.html" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130612811214151579" remote="130612811210000000" Dst="0" />
 <file name="index.html.bak" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877632812500" remote="130607877630000000" Dst="0" />
-<file name="index.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130612812000506556" remote="130612812000000000" Dst="0" />
+<file name="index.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130612812000000000" remote="130612812000000000" Dst="0" />
 <file name="left.html" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876808281250" remote="130607876800000000" Dst="0" />
 <file name="left.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130613869225850853" remote="130613869220000000" Dst="0" />
 <file name="login.html" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607877637031250" remote="130607877630000000" Dst="0" />
