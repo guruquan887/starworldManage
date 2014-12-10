@@ -16,4 +16,6 @@
 <file name="right.html" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876801875000" remote="130607876800000000" Dst="0" />
 <file name="updatelogout.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876828593750" remote="130607876820000000" Dst="0" />
 <file name="yanzheng.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130607876929843750" remote="130607876920000000" Dst="0" />
+<file name=".gitattributes" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130566735064550754" remote="130566735060000000" Dst="0" />
+<file name=".gitignore" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/starworldManage/" local="130612813771807868" remote="130612813770000000" Dst="0" />
 </dwsync>
